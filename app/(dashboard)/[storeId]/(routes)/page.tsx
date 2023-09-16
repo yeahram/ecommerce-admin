@@ -10,6 +10,6 @@ const DashboardPage: React.FC<DashboardPageProps> = async ({ params }) => {
       id: params.storeId,
     },
   });
-  return <div>Actice Store : {store?.name}</div>;
+  return <div>Store : {store?.name}</div>;
 };
 export default DashboardPage;
