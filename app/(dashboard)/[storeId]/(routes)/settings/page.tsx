@@ -30,6 +30,7 @@ const SettingsPage: React.FC<SettingsPageProps> = async ({ params }) => {
         <SettingsForm initialData={store} />
       </div>
     </div>
+    // <div>hello setting</div>
   );
 };
 export default SettingsPage;
